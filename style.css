@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    width: 100vw;
+    height: 100%;
+
+    background: #e0f0ea;
+    align-items: center;
+}
+
+header {
+    background: #3c2a4d;
+
+    border: 1px solid green;
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+}
+
+.button {
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.button a{
+    text-decoration: none;
+}
